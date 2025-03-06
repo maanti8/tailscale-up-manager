@@ -27,6 +27,8 @@
 
 ## Prerequisites
 
+This script is designed specifically for Linux-based operating systems that support systemd, such as Debian, Ubuntu, CentOS, and similar distributions. It relies on systemd for managing services, and thus is not natively compatible with non-Linux platforms like Windows or macOS—unless you run a Linux environment (e.g., via WSL on Windows). Additionally, since the script performs administrative tasks (e.g., creating files in /etc and managing system services), it must be executed with root privileges.
+
 - **Docker:**  
   Used for detecting network subnets.
 

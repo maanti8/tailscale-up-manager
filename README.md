@@ -51,10 +51,12 @@ This script is designed specifically for Linux-based operating systems that supp
 
    ```bash
    chmod +x tailscale-up-manager.sh
+```
 
 3. Run the Script as Root:
     ```bash
     sudo ./tailscale-up-manager.sh
+```
 
 
 ## Usage
@@ -92,8 +94,6 @@ The script uses docker network ls and docker network inspect to retrieve the nam
 Systemd Service Creation:
 The service is configured to require and start after tailscaled.service:
 
-ini
-Kopieren
 
     
     [Unit]
